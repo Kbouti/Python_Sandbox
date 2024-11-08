@@ -40,3 +40,22 @@ else:
     print("It's friggen cold out there! ")
 print("done")
 # ^ this always runs
+
+
+weight = float(input("What is your weight? "))
+unit = input("(K)g or (L)bs?").upper()
+print("weight: ")
+print(weight)
+print("unit: ")
+print(unit)
+
+if unit == "K":
+    result = str(weight * 2.2)
+    print("Your weight in lbs is: ")
+    print(result)
+elif unit == "L":
+    result = str(weight * .45)
+    print("Your weight in kgs is: ")
+    print(result)
+else:
+    print("Something went wrong")
