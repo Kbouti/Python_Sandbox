@@ -58,5 +58,16 @@ print(salePrice > 10 or salePrice < 3)
 
 i = 1
 while i < 10:
-    print (i * "*")
+    print(i * "*")
     i = i + 1
+
+
+numbers = range(5)
+print(numbers)
+# The range function should return the numbers from zero to the number specified, excluding the number specified. 
+# So basically range(5) = [0, 1, 2, 3, 4]
+# BUT it won't log that way if we print it. It will just log range(0, 5)
+# To get each number, we can use a for loop: 
+for number in numbers: 
+    print(number)
+# This^^ will print 0, 1, 2, 3, and 4  (each on thieri own line, as we're calling a print statement for each)
