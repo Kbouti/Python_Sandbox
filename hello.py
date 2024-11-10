@@ -1,5 +1,4 @@
 message = "Hello World!"
-employed = False
 print(message)
 
 # name = input("What is your name? ")
@@ -15,15 +14,15 @@ print(message)
 # B = input("Second number? ")
 # C = float(A) + float(B)
 # print("Sum: " + str(C))
-A = 3 > 2
-print("A: " + str(A))
+# A = 3 > 2
+# print("A: " + str(A))
 
-price = 25
+# price = 25
 
-print(price > 10 and price < 30)
-# ^^ above will return true only if expressions on both sides of "and" are true
-salePrice = 15
-print(salePrice > 10 or salePrice < 3)
+# print(price > 10 and price < 30)
+# # ^^ above will return true only if expressions on both sides of "and" are true
+# salePrice = 15
+# print(salePrice > 10 or salePrice < 3)
 # ^^ above will return true if either expression is true
 
 
@@ -78,8 +77,10 @@ print(salePrice > 10 or salePrice < 3)
 #     print(number)
 # # If we include two arguments in our range function it will be the range from first to the second, excluding the second number
 
-numbers = range(5, 10, 2)
-for number in numbers:
-    print(number)
-# If we include a third argument, for example two, it will return each nth value. So if two, this would return 5, 7, 9
+# numbers = range(5, 10, 2)
+# for number in numbers:
+#     print(number)
+# # If we include a third argument, for example two, it will return each nth value. So if two, this would return 5, 7, 9
 
+# numbers = (1, 2, 3)
+# ^^ This is a tuple. It is imutable. We can't change or add to it. If you need to change or add to it, use a list instead. 
