@@ -1,3 +1,9 @@
+
+# ************************************************************************************************************************************
+# Learn Python mindmap:
+# https://orgpad.info/s/sbwXdJ9N5wc
+# ************************************************************************************************************************************
+
 message = "Hello World!"
 print(message)
 
@@ -84,3 +90,4 @@ print(message)
 
 # numbers = (1, 2, 3)
 # ^^ This is a tuple. It is imutable. We can't change or add to it. If you need to change or add to it, use a list instead. 
+
