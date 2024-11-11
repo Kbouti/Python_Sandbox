@@ -2,6 +2,20 @@
 # ************************************************************************************************************************************
 # Learn Python mindmap:
 # https://orgpad.info/s/sbwXdJ9N5wc
+
+# The Python Tutorial:
+# https://docs.python.org/3/tutorial/index.html
+
+# Maaaaaybe helpful?:
+# https://www.youtube.com/watch?v=dBoQLktIkOo
+
+# ChatGPT prompt for roadmap:
+# I am trying to get my first job in web development. I have been practicing/learning html/css, javascript, react, and node for nearly two years.  A friend suggested that I learn some python and try to create a project using LLM/AI. He suggested llama2 as a technology to learn and integrate into a project to demonstrate knowledge of AI and enhance my resume. Where should I start?
+
+# How to open a python environment in terminal:
+# python3.13
+# To quit the python environment:
+# exit() or quit()
 # ************************************************************************************************************************************
 
 message = "Hello World!"
